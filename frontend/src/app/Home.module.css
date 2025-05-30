@@ -1,0 +1,73 @@
+/* styles.css */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.leagueButton {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.leagueButton:hover {
+  background-color: #e0e0e0;
+}
+
+.leagueButton.active {
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.mainContent h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.predictionsGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.predictionCard {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin: 10px;
+  text-align: center;
+}
+
+.predictionCard ul {
+  margin-left: 1.25rem;
+  list-style-type: disc;
+}
