@@ -1,9 +1,9 @@
-# from django.db import models
+from django.db import models
 
 # Create your models here.
 import os
 from pymongo import MongoClient
-from djongo import models
+# from djongo import models
 from dotenv import load_dotenv
 
 load_dotenv()
