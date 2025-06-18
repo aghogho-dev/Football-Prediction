@@ -11,12 +11,12 @@ type Prediction = {
 }
 
 const leagues = [
-  // { name: "MLS", endpoint: "mls" },
+  { name: "MLS", endpoint: "mls" },
   // { name: "BRA", endpoint: "bra" },
-  // { name: "BRA-B", endpoint: "bra_b"},
+  { name: "BRA-B", endpoint: "bra_b"},
   { name: "SWE-A", endpoint: "swe_a" },
-  // { name: "SWE", endpoint: "swe" },
-  { name: "FIN", endpoint: "fin" },
+  { name: "SWE", endpoint: "swe" },
+  // { name: "FIN", endpoint: "fin" },
   { name: "JPN", endpoint: "jpn" },
 ]
 
