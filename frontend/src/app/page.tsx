@@ -21,6 +21,7 @@ const leagues = [
   { name: "NOR", endpoint: "nor" },
   { name: "CHI", endpoint: "chi" },
   { name: "CHN", endpoint: "chn" },
+  { name: "USL", endpoint: "usl" },
 ]
 
 const API_BASE = process.env.BASE_URL || "https://football-prediction-backend-wad9.onrender.com" // "http://127.0.0.1:8000";
