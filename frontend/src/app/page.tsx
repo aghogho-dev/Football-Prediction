@@ -19,7 +19,7 @@ const leagues = [
   { name: "FIN", endpoint: "fin" },
   { name: "JPN", endpoint: "jpn" },
   { name: "NOR", endpoint: "nor" },
-  { name: "CHI", endpoint: "chi" },
+  // { name: "CHI", endpoint: "chi" },
   { name: "CHN", endpoint: "chn" },
   { name: "USL", endpoint: "usl" },
 ]
