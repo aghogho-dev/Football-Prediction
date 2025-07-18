@@ -16,7 +16,7 @@ const leagues = [
   // { name: "BRA-B*", endpoint: "bra_b"},
   { name: "SWE-A", endpoint: "swe_a" },
   // { name: "SWE", endpoint: "swe" },
-  { name: "FIN*", endpoint: "fin" },
+  // { name: "FIN*", endpoint: "fin" },
   { name: "JPN", endpoint: "jpn" },
   { name: "NOR", endpoint: "nor" },
   { name: "CHI", endpoint: "chi" },
