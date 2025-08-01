@@ -11,18 +11,19 @@ type Prediction = {
 }
 
 const leagues = [
-  { name: "MLS", endpoint: "mls" },
+  // { name: "MLS", endpoint: "mls" },
   { name: "BRA", endpoint: "bra" },
   // { name: "BRA-B*", endpoint: "bra_b"},
   { name: "SWE-A", endpoint: "swe_a" },
   // { name: "SWE", endpoint: "swe" },
-  // { name: "FIN*", endpoint: "fin" },
-  { name: "JPN", endpoint: "jpn" },
+  { name: "FIN*", endpoint: "fin" },
+  // { name: "JPN", endpoint: "jpn" },
   { name: "NOR", endpoint: "nor" },
   { name: "CHI", endpoint: "chi" },
   { name: "CHN", endpoint: "chn" },
-  // { name: "USL*", endpoint: "usl" },
-  { name: "MEX", endpoint: "mex" },
+  { name: "USL*", endpoint: "usl" },
+  // { name: "MEX", endpoint: "mex" },
+  { name: "BEL", endpoint: "bel" },
 ]
 
 const API_BASE = process.env.BASE_URL || "https://football-prediction-backend-wad9.onrender.com" // "http://127.0.0.1:8000";
